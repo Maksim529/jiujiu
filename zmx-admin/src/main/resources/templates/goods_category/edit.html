@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head  th:include="magicalcoder/v103/include/head :: commonHead('商品规格分类编辑')"/>
+
+<body class="childrenBody layui-hide">
+
+<!--magicaldrag-->
+    <div class="layui-fluid">
+        <div class="layui-card">
+            <div class="layui-card-header">
+
+            </div>
+            <div class="layui-card-body">
+                <form class="layui-form">
+                    <div class="layui-form-item security_edit_form_param_id">
+                        <label class="layui-form-label">主键</label>
+                        <div class="layui-input-block">
+                            <input type="text" disabled="true" class="layui-input" name="id"  placeholder="主键自动生成，无需手动编辑,如果重置则变成增加数据"/>
+                        </div>
+                    </div>
+                    <div class="layui-form-item security_edit_form_param_name">
+                        <label class="layui-form-label">分类名称</label>
+                        <div class="layui-input-block">
+                        <input type="text" class="layui-input" name="name" placeholder="请输入分类名称" lay-verify="magicalCoderVerify|mc_required" magicalcoder-verify="" value="" />
+                        </div>
+                    </div>
+                    <div class="layui-form-item security_edit_form_param_keyword">
+                        <label class="layui-form-label">分类另一个关键词</label>
+                        <div class="layui-input-block">
+                        <input type="text" class="layui-input" name="keyword" placeholder="请输入分类另一个关键词" lay-verify="magicalCoderVerify" magicalcoder-verify="" value="" />
+                        </div>
+                    </div>
+                    <div class="layui-form-item ">
+                        <div class="layui-input-block">
+                            <a class="layui-btn security_edit_form_operate_save" lay-submit="" lay-filter="save">立即提交</a>
+                            <button type="reset" class="layui-hide layui-btn layui-btn-primary" >重置</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!--/magicaldrag-->
+    <div th:replace="magicalcoder/v103/include/main-js :: commonMain" />
+    <script type="text/javascript"  th:src="@{/assets/admin/goods_category/edit.js}"></script>
+</body>
+</html>

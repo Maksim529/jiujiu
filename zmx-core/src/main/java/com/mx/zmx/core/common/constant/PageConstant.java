@@ -1,7 +1,7 @@
 package com.mx.zmx.core.common.constant;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/8/2
  * function:
  */

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/7/17
  * function: 接收AccessDeniedException 业务自己抛出的异常 这里能处理
  */

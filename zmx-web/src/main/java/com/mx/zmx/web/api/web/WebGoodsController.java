@@ -10,7 +10,7 @@ import redis.clients.jedis.Jedis;
 import javax.annotation.Resource;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/8/23
  * function:
  */

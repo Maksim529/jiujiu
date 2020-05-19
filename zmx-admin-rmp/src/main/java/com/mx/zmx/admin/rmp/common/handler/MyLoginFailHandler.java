@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/7/16
  * function:登陆失败处理器
  */

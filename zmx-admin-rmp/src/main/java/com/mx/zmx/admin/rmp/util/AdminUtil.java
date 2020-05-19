@@ -4,7 +4,7 @@ import com.mx.zmx.admin.rmp.dto.SysAdminUserDto;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/7/17
  * function:
  */

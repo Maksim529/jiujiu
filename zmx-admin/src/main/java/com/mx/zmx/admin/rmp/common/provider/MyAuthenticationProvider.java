@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/7/16
  * function:自定义验证代码 可以同时拿到用户名 密码
  * 此类不再使用 页面跳转比较适合，但是这种联合登陆写的太死了

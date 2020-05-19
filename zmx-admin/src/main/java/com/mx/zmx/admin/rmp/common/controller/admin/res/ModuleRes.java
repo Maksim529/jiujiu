@@ -3,7 +3,7 @@ package com.mx.zmx.admin.rmp.common.controller.admin.res;
 import java.util.List;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/8/1
  * function:
  */

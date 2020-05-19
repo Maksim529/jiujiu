@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.net.URLEncoder;
 
 /**
- * author:www.magicalcoder.com
+ * author:www.maoxing.vip
  * date:2018/7/17
  * function: 自定义一下 当用户登陆超时出错 框架捕获了匿名用户访问接口后 调用这里 提示用户重新登录即可
  */
